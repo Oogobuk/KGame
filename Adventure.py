@@ -6,9 +6,9 @@ pygame.font.init()
 pygame.init()
 
 WIDTH = 1300
-HEIGHT = 700
+HEIGHT = 800
 #BG = pygame.image.load("BG3.png")
-BG = pygame.transform.scale(pygame.image.load("BG.png"),(WIDTH,HEIGHT))
+BG = pygame.transform.scale(pygame.image.load("BG4.png"),(WIDTH,HEIGHT))
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
